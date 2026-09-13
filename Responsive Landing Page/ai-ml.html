@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI & Machine Learning - AIHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                AI<span>Hub</span>
+            </div>
+
+            <a href="index.html" class="nav-btn">
+                ← Back to Home
+            </a>
+
+        </nav>
+    </header>
+
+
+    <!-- COURSE INTRO -->
+    <section class="course-intro">
+
+        <p class="small-heading">🧠 AI & MACHINE LEARNING</p>
+
+        <h1>Learn AI & Machine Learning</h1>
+
+        <p>
+            Understand the basics of Artificial Intelligence
+            and Machine Learning through simple examples.
+        </p>
+
+    </section>
+
+
+    <!-- COURSE CONTENT -->
+    <section class="learning-section">
+
+        <!-- LESSON MENU -->
+        <div class="lesson-list">
+
+            <h2>📚 Course Lessons</h2>
+
+            <a href="#ai-intro">1. What is AI?</a>
+            <a href="#ml-intro">2. What is Machine Learning?</a>
+            <a href="#types">3. Types of Machine Learning</a>
+            <a href="#data">4. Data & Features</a>
+            <a href="#model">5. Training a Model</a>
+            <a href="#example">6. Simple Example</a>
+
+        </div>
+
+
+        <!-- LESSON CONTENT -->
+        <div class="lesson-content">
+
+
+            <!-- LESSON 1 -->
+            <article id="ai-intro">
+
+                <h2>1. What is Artificial Intelligence?</h2>
+
+                <p>
+                    Artificial Intelligence, or AI, is the ability
+                    of a computer system to perform tasks that normally
+                    require human intelligence.
+                </p>
+
+                <h3>Examples of AI</h3>
+
+                <ul>
+                    <li>Voice assistants</li>
+                    <li>Recommendation systems</li>
+                    <li>Chatbots</li>
+                    <li>Image recognition</li>
+                    <li>Self-driving technology</li>
+                </ul>
+
+            </article>
+
+
+            <!-- LESSON 2 -->
+            <article id="ml-intro">
+
+                <h2>2. What is Machine Learning?</h2>
+
+                <p>
+                    Machine Learning is a branch of AI where computers
+                    learn patterns from data and use those patterns
+                    to make predictions or decisions.
+                </p>
+
+                <h3>Simple idea</h3>
+
+                <div class="code-box">
+                    Data → Learning → Model → Prediction
+                </div>
+
+                <p>
+                    For example, a model can learn from previous
+                    house prices and predict the price of a new house.
+                </p>
+
+            </article>
+
+
+            <!-- LESSON 3 -->
+            <article id="types">
+
+                <h2>3. Types of Machine Learning</h2>
+
+                <h3>Supervised Learning</h3>
+
+                <p>
+                    The model learns using data that already has
+                    correct answers or labels.
+                </p>
+
+                <p>
+                    Example: Predicting whether an email is spam.
+                </p>
+
+
+                <h3>Unsupervised Learning</h3>
+
+                <p>
+                    The model finds patterns or groups in data
+                    without predefined labels.
+                </p>
+
+                <p>
+                    Example: Grouping customers based on their behavior.
+                </p>
+
+
+                <h3>Reinforcement Learning</h3>
+
+                <p>
+                    An agent learns by interacting with an environment
+                    and receiving rewards or penalties.
+                </p>
+
+            </article>
+
+
+            <!-- LESSON 4 -->
+            <article id="data">
+
+                <h2>4. Data & Features</h2>
+
+                <p>
+                    Data is the foundation of Machine Learning.
+                    A model learns patterns from the data provided to it.
+                </p>
+
+                <h3>What is a Feature?</h3>
+
+                <p>
+                    A feature is an input value used by a Machine
+                    Learning model to make a prediction.
+                </p>
+
+                <div class="code-box">
+                    Age = 20<br>
+                    Study Hours = 5<br>
+                    Attendance = 90%
+                </div>
+
+                <p>
+                    These values can be used as features to predict
+                    a student's performance.
+                </p>
+
+            </article>
+
+
+            <!-- LESSON 5 -->
+            <article id="model">
+
+                <h2>5. Training a Machine Learning Model</h2>
+
+                <p>
+                    Training means allowing a Machine Learning
+                    algorithm to learn patterns from a dataset.
+                </p>
+
+                <h3>Basic ML workflow</h3>
+
+                <ul>
+                    <li>Collect data</li>
+                    <li>Clean the data</li>
+                    <li>Select features</li>
+                    <li>Split the data</li>
+                    <li>Train the model</li>
+                    <li>Test the model</li>
+                    <li>Make predictions</li>
+                </ul>
+
+            </article>
+
+
+            <!-- LESSON 6 -->
+            <article id="example">
+
+                <h2>6. Simple Machine Learning Example</h2>
+
+                <p>
+                    Here is a simple example using Python and
+                    Linear Regression.
+                </p>
+
+                <div class="code-box">
+                    from sklearn.linear_model import LinearRegression<br><br>
+
+                    model = LinearRegression()<br>
+                    model.fit(X_train, y_train)<br><br>
+
+                    prediction = model.predict(X_test)
+                </div>
+
+                <p>
+                    The model learns the relationship between the
+                    input data and the target value and then uses
+                    that relationship to make predictions.
+                </p>
+
+
+                <div class="completion-box">
+
+                    <h3>🎉 Congratulations!</h3>
+
+                    <p>
+                        You completed the basic AI & Machine Learning
+                        lessons. Keep practicing by building your
+                        own Machine Learning projects.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="copyright">
+
+            <p>
+                © 2026 AIHub | Explore AI. Create the Future. 🧠
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
